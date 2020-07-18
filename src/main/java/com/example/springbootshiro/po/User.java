@@ -3,14 +3,14 @@ package com.example.springbootshiro.po;
 public class User {
 
     private String name;
-    private String password;
     private Integer id;
+    private String password;
     private String perms;
 
-    public User(String name, String password, Integer id, String perms) {
+    public User(String name, Integer id, String password, String perms) {
         this.name = name;
-        this.password = password;
         this.id = id;
+        this.password = password;
         this.perms = perms;
     }
 
